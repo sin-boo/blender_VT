@@ -31,7 +31,83 @@
 3. Click **Fix Shape Keys**.
 
    * This will automatically rename bones and shape keys for proper tracking.
-   * If it does not work, check the list of blend shapes provided below and rename them manually.
+   * If it does not work, check the list of blend shapes and bone mappings below and rename them manually.
+
+#### 🔑 Blendshape Mapping
+
+* **Brows:**
+
+  * browInnerUp
+  * browDownLeft
+  * browDownRight
+  * browOuterUpLeft
+  * browOuterUpRight
+
+* **Eyes:**
+
+  * eyeLookUpLeft, eyeLookUpRight
+  * eyeLookDownLeft, eyeLookDownRight
+  * eyeLookInLeft, eyeLookInRight
+  * eyeLookOutLeft, eyeLookOutRight
+  * eyeBlinkLeft → blink\_left
+  * eyeBlinkRight → blink\_right
+  * eyeSquintLeft, eyeSquintRight
+  * eyeWideLeft, eyeWideRight
+  * eye roll base → -180
+  * eye roll test → -90
+
+* **Cheeks & Nose:**
+
+  * cheekPuff
+  * cheekSquintLeft, cheekSquintRight
+  * noseSneerLeft, noseSneerRight
+
+* **Jaw:**
+
+  * jawOpen
+  * jawForward
+  * jawLeft
+  * jawRight
+
+* **Mouth:**
+
+  * mouthFunnel
+  * mouthPucker
+  * mouthLeft, mouthRight
+  * mouthRollUpper, mouthRollLower
+  * mouthShrugUpper, mouthShrugLower
+  * mouthClose
+  * mouthSmileLeft, mouthSmileRight
+  * mouthFrownLeft, mouthFrownRight
+  * mouthDimpleLeft, mouthDimpleRight
+  * mouthUpperUpLeft, mouthUpperUpRight
+  * mouthLowerDownLeft, mouthLowerDownRight
+  * mouthPressLeft, mouthPressRight
+  * mouthStretchLeft, mouthStretchRight
+
+* **Phonemes:**
+
+  * Fcl\_MTH\_A → a
+  * Fcl\_MTH\_I → i
+  * Fcl\_MTH\_U → u
+  * Fcl\_MTH\_E → e
+  * Fcl\_MTH\_O → o
+
+* **Other Facial Adjustments:**
+
+  * facal eye close L → blink\_right
+  * facal eye close R → blink\_left
+  * Fcl\_BRW\_Angry → browInnerUp
+
+#### 🦴 Bone Renaming
+
+* J\_Bip\_C\_Head → Head
+* J\_Bip\_C\_UpperChest → Chest
+* J\_Bip\_C\_Hips → Hips
+* J\_Adj\_L\_FaceEye → LeftEye
+* J\_Adj\_R\_FaceEye → RightEye
+
+✅ Note: Remove any extra prefixes or suffixes before/after names. Only the **base word** should remain.
 
 ### 5. Set Up Tracking
 
@@ -44,7 +120,7 @@
 
 ## 📌 Notes
 
-* If auto-renaming fails, refer to the included **blendshape list** for manual adjustments.
+* If auto-renaming fails, refer to the blendshape and bone mapping above.
 * For best results, ensure your model is properly rigged and all required shape keys are present.
 
 ---
