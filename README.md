@@ -1,6 +1,6 @@
 # blender\_VT
 
-**blender\_VT** is a Blender addon designed for VTubers who want more freedom than traditional VTuber software provides.
+**blender\_VT** is a Blender addon designed for VTubers who want more freedom than traditional VTuber software provides. Test may or may not work
 
 ![Preview Image](https://github.com/sin-boo/blender_VT/blob/e758658a9f19a8a6d1adc01df531e9a9783b3693/im%20just%20good.PNG)
 
