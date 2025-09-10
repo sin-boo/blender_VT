@@ -2,7 +2,10 @@
 
 **blender\_VT** is a Blender addon designed for VTubers who want more freedom than traditional VTuber software provides. Test may or may not work
 
-![Preview Image](https://github.com/sin-boo/blender_VT/blob/e758658a9f19a8a6d1adc01df531e9a9783b3693/im%20just%20good.PNG)
+<p align="center">
+  <img src="https://github.com/sin-boo/localAIchat_Blender/blob/3c398eaf52494eb5c9cf484766606a63da48211a/part_1%20to%202.PNG" alt="Preview" width="500"/>
+</p>
+
 
 ---
 
