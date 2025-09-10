@@ -10,7 +10,7 @@
 
 ### 1. Download the Addons
 
-* Get the required addons from the [Releases page](https://github.com/sin-boo/blender_VT/releases).
+* Get the required addons from the [Releases page](https://github.com/sin-boo/localAIchat_Blender/blob/3b9421065a7117b8530a5be4e8e39ba49e6c3913/part_1%20to%202.PNG).
 
 ### 2. Install in Blender
 
